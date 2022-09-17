@@ -23,38 +23,46 @@ const Useeffect = () => {
                 <div className="card p-2">
                   <div className="d-flex align-items-center">
                     <div className="image">
-                      {" "}
                       <img
                         src={currElem.person.image.medium}
                         className="rounded"
                         width="155"
-                      />{" "}
+                      />
                     </div>
                     <div className="ml-3 w-100">
                       <h4 className="mb-0 mt-0 textLeft">
-                        {currElem.person.name}{" "}
+                        {currElem.person.name}
                       </h4>
                       {/* <span className="text-left">{type }</span> */}
                       <div className="p-2 mt-2 bg-primary d-flex justify-content-between rounded text-white stats">
                         <div className="d-flex flex-column">
                           <span className="articles">Country</span>
-                          {currElem.person.country.name}
-                          <span className="number1"></span>{" "}
+
+                          <span className="number1">
+                            {currElem.person.country.name}
+                          </span>
                         </div>
                         <div className="d-flex flex-column">
                           <span className="followers">Birthday</span>
-                          {currElem.person.birthday}
-                          <span className="number2"></span>{" "}
+
+                          <span className="number2">
+                            {currElem.person.birthday}
+                          </span>
                         </div>
                         <div className="d-flex flex-column">
                           <span className="rating">Gender</span>
-                          {currElem.person.gender}
-                          <span className="number3"></span>
+
+                          <span className="number3">
+                            {" "}
+                            {currElem.person.gender}
+                          </span>
                         </div>
                         <div className="d-flex flex-column">
                           <span className="rating">Famous Role</span>
-                          <span className="number3"></span>
-                          {currElem.character.name}
+                          <span className="number3">
+                            {" "}
+                            {currElem.character.name}
+                          </span>
                         </div>
                       </div>
                     </div>

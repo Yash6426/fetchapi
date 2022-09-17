@@ -2,59 +2,65 @@ import React from "react";
 
 export default function header(props) {
   return (
-    <nav class="navbar navbar-dark bg-dark fixed-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+    <nav className="navbar navbar-dark bg-dark fixed-top">
+      <div className="container-fluid">
+        <a className="navbar-brand" href="#">
           Useeffect API
         </a>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-bs-toggle="offcanvas"
           data-bs-target="#offcanvasDarkNavbar"
           aria-controls="offcanvasDarkNavbar"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
         <div
-          class="offcanvas offcanvas-end text-bg-dark"
-          tabindex="-1"
+          className="offcanvas offcanvas-end text-bg-dark"
+          tabIndex="-1"
           id="offcanvasDarkNavbar"
           aria-labelledby="offcanvasDarkNavbarLabel"
         >
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+          <div className="offcanvas-header">
+            <h5 className="offcanvas-title" id="offcanvasDarkNavbarLabel">
               Useeffect API
             </h5>
             <button
               type="button"
-              class="btn-close btn-close-white"
+              className="btn-close btn-close-white"
               data-bs-dismiss="offcanvas"
               aria-label="Close"
             ></button>
           </div>
-          <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
+          <div className="offcanvas-body">
+            <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li className="nav-item">
+                <a className="nav-link active" aria-current="page" href="#">
                   Home
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://api.tvmaze.com/shows/1/cast">
+              <li className="nav-item">
+                <a
+                  className="nav-link"
+                  href="https://api.tvmaze.com/shows/1/cast"
+                >
                   Maze Api link
                 </a>
               </li>
-              <li class="nav-item">
+              <li className="nav-item">
                 <a
-                  class="nav-link"
+                  className="nav-link"
                   href="https://github.com/Yash6426/fetchapi/tree/master"
                 >
                   Github
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://hkftud-3000.preview.csb.app/">
+              <li className="nav-item">
+                <a
+                  className="nav-link"
+                  href="https://hkftud-3000.preview.csb.app/"
+                >
                   CodeSandbox
                 </a>
               </li>
