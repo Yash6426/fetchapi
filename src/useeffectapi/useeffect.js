@@ -53,14 +53,12 @@ const Useeffect = () => {
                           <span className="rating">Gender</span>
 
                           <span className="number3">
-                            {" "}
                             {currElem.person.gender}
                           </span>
                         </div>
                         <div className="d-flex flex-column">
                           <span className="rating">Famous Role</span>
                           <span className="number3">
-                            {" "}
                             {currElem.character.name}
                           </span>
                         </div>
