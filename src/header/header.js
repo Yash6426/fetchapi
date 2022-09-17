@@ -46,12 +46,15 @@ export default function header(props) {
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="https://github.com/Yash6426">
+                <a
+                  class="nav-link"
+                  href="https://github.com/Yash6426/fetchapi/tree/master"
+                >
                   Github
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="https://github.com/Yash6426">
+                <a class="nav-link" href="https://hkftud-3000.preview.csb.app/">
                   CodeSandbox
                 </a>
               </li>
